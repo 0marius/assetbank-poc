@@ -8,11 +8,11 @@ def step_impl(context):
 
 @step('I enter a valid email for my server')
 def step_impl(context):
-    context.login_page.enter_username("deepthi@testclub.io")
+    context.login_page.enter_username("omar@testclub.io")
 
 @step('I enter associated valid password')
 def step_impl(context):
-    context.login_page.enter_password("June@2018")
+    context.login_page.enter_password("Testclub1o")
 
 @step('I enter a valid incorrect password')
 def step_impl(context):
